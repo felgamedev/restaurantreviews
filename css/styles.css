@@ -287,6 +287,10 @@ nav h1 a {
 }
 
 @media only screen and (max-width: 775px){
+	main {
+		min-width: 500px;
+	}
+
 	#restaurants-list {
 		display: inline-flex;
 		margin: 0;
