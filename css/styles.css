@@ -295,14 +295,14 @@ nav h1 a {
 
 /* ======== Media Queries ======== */
 @media only screen and (min-width: 960px){
-	main {
+	body {
 		width: 960px;
 		margin: auto;
 	}
 }
 
 @media only screen and (max-width: 775px){
-	main {
+	body {
 		min-width: 500px;
 	}
 
