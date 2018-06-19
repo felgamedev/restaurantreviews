@@ -297,7 +297,8 @@ nav h1 a {
 	#restaurants-list li {
 		max-width: 100%;
 		text-align: center;
-		margin: 0 5px 12px;
+		padding: 0 10px 25px;
+		margin: 0 0 12px;
 	}
 
 	#restaurants-list li a {
