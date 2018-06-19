@@ -285,3 +285,18 @@ nav h1 a {
 		margin: auto;
 	}
 }
+
+@media only screen and (max-width: 775px){
+	#restaurants-list {
+		display: inline-flex;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	#restaurants-list li {
+		max-width: 100%;
+		text-align: center;
+		margin: 0 5px 12px;
+	}
+}
