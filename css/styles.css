@@ -207,7 +207,7 @@ nav h1 a {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000;
+  z-index: 1001;
 }
 .inside #map-container {
   background: blue none repeat scroll 0 0;
@@ -218,6 +218,7 @@ nav h1 a {
   width: 50%;
 }
 .inside #map {
+	position: relative;
   background-color: #ccc;
   height: 100%;
   width: 100%;
@@ -284,8 +285,7 @@ nav h1 a {
   margin: 0 0 30px;
   overflow: hidden;
   padding: 0 20px 20px;
-  position: relative;
-  width: 85%;
+  width: 75%;
 }
 #reviews-list li p {
   margin: 0 0 10px;
@@ -324,5 +324,25 @@ nav h1 a {
 		width: 60%;
 		min-height: 48px;
 		line-height: 4;
+	}
+
+	/* ----- Details Page ----- */
+	.inside #breadcrumb {
+		width: 100%;
+	}
+	.inside #map-container {
+		width: 100%;
+		min-height: 300px;
+		max-height: 300px;
+		position: fixed;
+		top: 0;
+	}
+
+	#restaurant-container, #reviews-container {
+		width: 100%;
+	}
+
+	.inside table {
+		margin: auto;
 	}
 }
