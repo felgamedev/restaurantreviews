@@ -160,7 +160,7 @@ fillReviewsHTML = (reviews = self.restaurant.reviews) => {
  */
 createReviewHTML = review => {
   const li = document.createElement("li");
-  const name = document.createElement("h3");
+  const name = document.createElement("h4");
   li.setAttribute("tabindex", "0");
   name.innerHTML = review.name;
   li.appendChild(name);
